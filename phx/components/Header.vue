@@ -20,7 +20,7 @@
         P <span class="text-orange-600">H</span> X
       </h1>
     </nuxt-link>
-    <ul class="lg:flex hidden items-center space-x-14">
+    <ul class="lg:flex hidden items-center space-x-10">
       <li
         class="group"
         :class="{ 'text-gray-500': activeLink != link }"
@@ -33,8 +33,31 @@
         >
           {{ link }}
         </nuxt-link>
+
+        <div
+          :class="{ 'bg-black scale-y-100': activeLink == link }"
+          class="
+            h-0.5
+            mt-0.5
+            group-hover:scale-y100 group-hover:bg-black group-hover:block
+            w-[80%]
+            transition-all
+            duration-300
+          "
+        ></div>
       </li>
     </ul>
+    <div class="flex items-center space-x-10">
+      <nuxt-link to="https://www.instagram.com/" target="_blank">
+        <instagram />
+      </nuxt-link>
+      <nuxt-link to="https://twitter.com/" target="_blank">
+        <twitter />
+      </nuxt-link>
+      <nuxt-link to="https://pt-br.facebook.com/" target="_blank">
+        <facebook />
+      </nuxt-link>
+    </div>
   </header>
 </template>
 
