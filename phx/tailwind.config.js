@@ -15,7 +15,7 @@ module.exports = {
       },
       spacing: {
         desktop: "100px",
-        mobile: "10px",
+        mobile: "15px",
       },
       animation: {
         fade: "fade 0.4s ease-in-out",
