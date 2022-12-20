@@ -17,6 +17,14 @@ module.exports = {
         desktop: "100px",
         mobile: "15px",
       },
+      colors: {
+        ...require("tailwindcss/colors"),
+        primary: "#1e1c2a",
+        secondary: "#6e48d6",
+        tertiary: "#F55F36",
+        quaternary: "#fff",
+        quinary: "#B5B5B5",
+      },
       animation: {
         fade: "fade 0.4s ease-in-out",
         slideDown: "slide-down 1s ease-in-out",

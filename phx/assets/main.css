@@ -5,9 +5,9 @@
 @tailwind utilities;
 
 .hover-social:hover {
-  @apply transition-all duration-500 scale-125  bg-orange-600 rounded-lg;
+  @apply transition-all duration-500 scale-125  bg-tertiary rounded-lg;
 }
 
 .hover-logo :hover {
-  @apply transition-all duration-300 scale-125 text-orange-600;
+  @apply transition-all duration-300 scale-125 text-tertiary;
 }
