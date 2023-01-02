@@ -11,3 +11,11 @@
 .hover-logo :hover {
   @apply transition-all duration-300 scale-125 text-tertiary;
 }
+
+.btn {
+  @apply w-[78%] h-[50px] rounded-3xl bg-primary text-quaternary text-lg transition-all duration-500;
+}
+
+.teste {
+  @@apply animate-fade transition-all duration-500;
+}

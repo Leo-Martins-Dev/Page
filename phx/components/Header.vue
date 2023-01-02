@@ -9,9 +9,9 @@
       shadow-md
       bg-quaternary
       lg:px-desktop
-      sticky
       top-0
       text-primary
+      sticky
     "
   >
     <nuxt-link to="/" class="text-4xl font-bold hover-logo">
