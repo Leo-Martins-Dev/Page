@@ -1,21 +1,9 @@
 <template>
-  <div class="flex">
+  <div class="flex relative top-28">
     <div
-      class="
-        animate-fade
-        relative
-        bg-tertiary
-        left-[62%]
-        bottom-[130px]
-        w-[275px]
-        h-[500px]
-        rounded-xl
-        font-bold
-        border-2 border-black
-        block
-      "
+      class="animate-fade bg-tertiary w-[280px] h-[520px] rounded-xl font-bold"
     >
-      <div class="flex justify-center p-5 text-2xl text-primary">
+      <div class="flex justify-center p-5 text-2xl text-quaternary">
         <h2>
           1000 Mega<br />+HBO Max <br />
           Ou 2 Apps
@@ -27,7 +15,7 @@
           >129,90 <span class="text-[14px]">/m</span></span
         >
       </div>
-      <div class="flex justify-right pl-6 p-1">
+      <div class="flex justify-right pl-6 p-1 text-quaternary">
         <ul class="space-y-3">
           <li class="flex">
             <Icon-card />
@@ -48,14 +36,12 @@
         </ul>
       </div>
       <div class="flex justify-center p-4">
-        <button class="btn hover:bg-secondary hover:scale-110">
-          Contratar
-        </button>
+        <button class="btn hover-all">Contratar</button>
       </div>
       <div class="font-normal text-sm text-quinary p-3">
         <span>
           *Fidelidade de 12 meses <br />
-          *Sujeito a analise de credito</span
+          *Sujeito a análise de crédito</span
         >
       </div>
     </div>

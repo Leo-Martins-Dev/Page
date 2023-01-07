@@ -1,7 +1,7 @@
 <template>
   <div>
     <Header />
-    <main class="mb-16">
+    <main>
       <Hero />
     </main>
   </div>

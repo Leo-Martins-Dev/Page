@@ -22,7 +22,7 @@ module.exports = {
       colors: {
         ...require("tailwindcss/colors"),
         primary: "#1e1c2a",
-        secondary: "#6e48d6",
+        secondary: "#5437A3",
         tertiary: "#F55F36",
         quaternary: "#fff",
         quinary: "#B5B5B5",

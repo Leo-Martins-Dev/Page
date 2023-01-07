@@ -4,18 +4,14 @@
 @tailwind components;
 @tailwind utilities;
 
-.hover-social:hover {
-  @apply transition-all duration-500 scale-125  bg-tertiary rounded-lg;
-}
-
-.hover-logo :hover {
-  @apply transition-all duration-300 scale-125 text-tertiary;
-}
-
 .btn {
-  @apply w-[78%] h-[50px] rounded-3xl bg-primary text-quaternary text-lg transition-all duration-500;
+  @apply px-9 py-5 rounded-3xl bg-primary text-quaternary text-lg;
 }
 
-.teste {
-  @@apply animate-fade transition-all duration-500;
+.hover-all:hover {
+  @apply scale-125 duration-300 transition-all;
+}
+
+.icon-apps {
+  @apply rounded-full h-[110px] w-[110px];
 }
